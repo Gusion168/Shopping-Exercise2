@@ -46,12 +46,14 @@ public class Sale {
 
     // Method to display sale information
     public void displayInfo() {
+        System.out.println("=====================================================");
         System.out.println("Sale Date: " + date);
         System.out.println("Customer Name: " + customer.getCusName());
         System.out.println("Customer Type: " + customer.getCusType());
         System.out.println("Service Expense: " + serviceExpense);
         System.out.println("Product Expense: " + productExpense);
         System.out.println("Total Expense: " + getTotalExpense());
+        System.out.println("=====================================================");
     }
 
     // Static method to calculate discounted price for service
