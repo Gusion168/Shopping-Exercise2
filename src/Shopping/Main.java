@@ -2,7 +2,7 @@ package Shopping;
 
 public class Main {
     public static void main(String[] args) {
-        // Create a customer
+        // Create a customer class
         Customer customer1 = new Customer("John Doe", "Premium");
         Customer customer2 = new Customer("Seav Long","gold");
         Customer customer3 = new Customer("Jeata","silver");
